@@ -1,0 +1,5 @@
+name: ModernAPI
+main: com.github.caoli5288.modernapi.ModernAPI
+version: 0.0.1
+author: [caoli5288]
+api-version: 1.13
