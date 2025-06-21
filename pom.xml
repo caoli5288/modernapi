@@ -26,6 +26,10 @@
             <id>i7mc-snapshots</id>
             <url>https://repo.i7mc.com/snapshots/</url>
         </repository>
+        <repository>
+            <id>codemc-nms</id>
+            <url>https://repo.codemc.org/repository/nms/</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
@@ -35,12 +39,12 @@
         </snapshotRepository>
     </distributionManagement>
     <dependencies>
-        <dependency>
-            <groupId>net.md-5</groupId>
-            <artifactId>bungeecord-chat</artifactId>
-            <version>1.16-R0.4-SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>net.md-5</groupId>-->
+<!--            <artifactId>bungeecord-chat</artifactId>-->
+<!--            <version>1.16-R0.4-SNAPSHOT</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
 
         <dependency>
             <groupId>io.papermc.paper</groupId>
