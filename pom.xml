@@ -39,6 +39,12 @@
         </snapshotRepository>
     </distributionManagement>
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.36</version>
+            <scope>provided</scope>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>net.md-5</groupId>-->
 <!--            <artifactId>bungeecord-chat</artifactId>-->
