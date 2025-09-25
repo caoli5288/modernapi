@@ -1,6 +1,7 @@
 package com.github.caoli5288.modernapi;
 
 import org.bukkit.Material;
+import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.jetbrains.annotations.NotNull;
@@ -9,6 +10,10 @@ public class ModernItems {
 
     public static Material getMaterial(@NotNull ItemStack item) {
         return item.getType();
+    }
+
+    public static Material getMaterial(@NotNull Block block) {
+        return block.getType();
     }
 
     public static Material getMaterial(@NotNull String name) {
