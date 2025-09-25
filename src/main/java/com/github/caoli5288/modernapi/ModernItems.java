@@ -16,6 +16,18 @@ public class ModernItems {
         return block.getType();
     }
 
+    public static ModernBlockData getBlockData(@NotNull Block block) {
+        return new ModernBlockData(block.getBlockData());
+    }
+
+    public static void setBlockData(@NotNull Block block, @NotNull ModernBlockData blockData) {
+        blockData.apply(block, true);
+    }
+
+    public static void setBlockData(@NotNull Block block, @NotNull ModernBlockData blockData, boolean applyPhysics) {
+        blockData.apply(block, applyPhysics);
+    }
+
     public static Material getMaterial(@NotNull String name) {
         return Material.getMaterial(name);
     }
