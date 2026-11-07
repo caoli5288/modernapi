@@ -58,6 +58,6 @@ public class ModernItems {
     }
 
     public static boolean isNullOrEmpty(ItemStack item) {
-        return item == null || item.getType().isAir() || item.getAmount() == 0;
+        return item == null || item.getType().isEmpty() || item.getAmount() == 0;
     }
 }
